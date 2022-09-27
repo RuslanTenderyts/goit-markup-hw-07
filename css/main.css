@@ -70,34 +70,6 @@ body {
   padding-right: 15px;
 }
 
-.modal-form-submit {
-  display: block;
-  width: 200px;
-  height: 50px;
-  margin-left: auto;
-  margin-right: auto;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.88px;
-  letter-spacing: 0.06em;
-  color: var(--mail-font-color);
-  background: #188CE8;
-  border: none;
-  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-  cursor: pointer;
-}
-
-.sections-title {
-  margin-bottom: 50px;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.16;
-  text-align: center;
-  color: var(--main-dark-color);
-}
-
 .logo {
   display: inline-block;
   font-family: "Raleway";
@@ -106,6 +78,32 @@ body {
   line-height: 1.2;
   text-decoration: none;
   color: #2196f3;
+}
+
+.button {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 216px;
+  height: 50px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.06em;
+  color: var(--mail-font-color);
+  background: #2196F3;
+  border: 0;
+  border-radius: 4px;
+  cursor: pointer;
+  -webkit-transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.button:focus, .button:hover {
+  background-color: #188CE8;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 .backdrop {
@@ -361,12 +359,25 @@ body {
   color: #2196F3;
 }
 
+.button.modal-button {
+  width: 200px;
+}
+
 .section {
   padding-top: 94px;
 }
 
 .section:not(:nth-child(2)) {
   padding-bottom: 94px;
+}
+
+.sections-title {
+  margin-bottom: 50px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  color: var(--main-dark-color);
 }
 
 .header {
@@ -535,32 +546,6 @@ body {
   margin-bottom: 30px;
   margin-left: auto;
   margin-right: auto;
-}
-
-/* button studio */
-.button {
-  display: inline-block;
-  width: 216px;
-  height: 50px;
-  padding: 0;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.9;
-  letter-spacing: 0.03em;
-  color: var(--main-light-color);
-  background: #2196f3;
-  border: 0;
-  border-radius: 4px;
-  cursor: pointer;
-  -webkit-transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.button:focus, .button:hover {
-  background: #2196f3;
-  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 .flex .item:not(:last-child) {
@@ -979,7 +964,7 @@ body {
   border-radius: 4px;
 }
 
-.footer-form-subscribe {
+.button.footer-button {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -989,24 +974,11 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  text-align: center;
-  margin-left: 12px;
   width: 200px;
-  height: 50px;
-  letter-spacing: 0.06em;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.88;
-  color: #FFFFFF;
-  background: #2196F3;
-  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
+  margin-left: 12px;
 }
 
-.footer-form-subscribe-icon {
+.footer-icon {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
