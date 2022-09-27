@@ -1,0 +1,30 @@
+.flex .item:not(:last-child) {
+    margin-right: 30px;
+  }
+  
+  .benefits-titel {
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+    color: var(--main-dark-color);
+   
+  }
+  .benefits-icon-box {
+    width: 270px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    background: #F5F4FA;
+  }
+  .benefits-icon {
+    width: 70px;
+    height: 70px;
+  }
+  .benefits-text {
+    line-height: 24px;
+    width: 270px;
+  }
