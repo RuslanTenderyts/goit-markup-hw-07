@@ -7,19 +7,12 @@
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
       border-radius: 0px 0px 4px 4px;
   }
-  .sections-title{
-    margin-bottom: 50px;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.16;
-    text-align: center;
-    color: var(--main-dark-color);
-  }
-  .team-box {
+  
+  .team__box {
     padding-top: 30px;
     padding-bottom: 30px;
   }
-  .team-title {
+  .team__title {
     margin-bottom: 10px;
     border-radius: 4px;
     font-weight: 500;
@@ -27,7 +20,7 @@
     line-height: 1.19;
     color: var(--main-dark-color);
   }
-  .team-text {
+  .team__text {
     margin-bottom: 16px;
     font-size: 16px;
     line-height: 1.19;
@@ -50,12 +43,12 @@
     border-radius: 50%;
     color: #AFB1B8;
     
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color var(--transition-dur-and-func), color var(--transition-dur-and-func);
 
 
         &:hover,
         &:focus {
-          background-color: #2196f3;
+          background-color: var(--main-hover-color);
           color: #fff
         }
   }

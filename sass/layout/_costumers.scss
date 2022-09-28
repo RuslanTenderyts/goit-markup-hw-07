@@ -1,13 +1,13 @@
-.customers-list {
+.customers__list {
     justify-content: center;
       
   }
-  .customers-list .item {
+  .customers__item {
     width: 170px;
     height: 92px;
   }
   
-  .customers-link {
+  .customers__link {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -16,19 +16,21 @@
     color: var(--color-icon);
     border-radius: 4px;
     border: 1px solid currentColor;
+    transition: color var(--transition-dur-and-func);
+
 
         
         &:hover,
         &:focus {
-            color: #2196f3;
+            color: var(--main-hover-color);
         }
   }
   
-  .customers-icon {
+  .customers__icon {
     width: 106px;
     height: 60px;
     fill: currentColor;
   }
-  .customers .item:not(:last-child) {
+  .customers__item:not(:last-child) {
     margin-right: 30px;
   }
