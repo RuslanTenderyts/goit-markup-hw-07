@@ -27,18 +27,24 @@
     width: 100%;
     height: 100%;
     border-radius: 50%;
-    background-color: rgba(255, 255, 255, 0.1);
-    transition: background-color var(--transition-dur-and-func);
+    color: #AFB1B8;
+    background-color: #fff;
+    transition: background-color var(--transition-dur-and-func), 
+                color var(--transition-dur-and-func);
 
         &:hover,
         &:focus {
           background-color: var(--main-hover-color);
-          
+          color: #fff;
         }
+  }
+  .social-networks__link--dark {
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.1);
   }
   
   .social-networks__icon {
     width: 20px;
     height: 20px;
-    fill: #fff;
+    fill: currentColor;
    }
