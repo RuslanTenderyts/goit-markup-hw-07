@@ -44,13 +44,10 @@
   }
 
   .footer__subtitle {
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
-    text-transform: uppercase;
-    color: var(--main-light-color);
-  
     margin-bottom: 20px;
+    
+    @include font-subtitle();
+    color: var(--main-light-color);
   } 
   
   .footer-form {

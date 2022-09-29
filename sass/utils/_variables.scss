@@ -13,4 +13,12 @@
   }
   
 
+@mixin font-subtitle ($fw: 700, $fs: 14px, $lh: 1.14, $ls: 0.03em, $tt: uppercase) {
+  font-weight: $fw;
+  font-size: $fs;
+  line-height: $lh;
+  letter-spacing: $ls;
+  text-transform: $tt;
+}
+
   

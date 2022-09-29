@@ -578,11 +578,12 @@ body {
   margin-right: auto;
 }
 
-.benefits__titel {
+.benefits__subtitle {
   margin-bottom: 10px;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--main-dark-color);
 }
@@ -617,7 +618,7 @@ body {
   position: relative;
 }
 
-.feature__description {
+.feature__subtitle {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -636,9 +637,9 @@ body {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
-  text-align: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  text-align: center;
   color: var(--mail-font-color);
 }
 
@@ -750,12 +751,13 @@ body {
 }
 
 .footer__subtitle {
+  margin-bottom: 20px;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--main-light-color);
-  margin-bottom: 20px;
 }
 
 .footer-form {
