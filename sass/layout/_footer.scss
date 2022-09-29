@@ -3,7 +3,7 @@
     padding-top: 60px;
     padding-bottom: 60px;
   }
-  .footer .container {
+  .footer__container {
     display: flex;
     align-items: baseline;
   }
@@ -89,5 +89,7 @@
     width: 24px;
     height: 24px;
     fill: var(--mail-font-color);
+   
   }
+
   
